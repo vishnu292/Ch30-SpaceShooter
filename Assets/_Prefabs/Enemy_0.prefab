@@ -192,8 +192,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1434964148858859208}
   - component: {fileID: 26191978584980524}
-  - component: {fileID: 9007880663231762752}
-  - component: {fileID: 6283113762561682583}
   - component: {fileID: 8475083319580043724}
   - component: {fileID: 1229825400579709871}
   m_Layer: 0
@@ -235,37 +233,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 120
   m_CollisionDetection: 0
---- !u!114 &9007880663231762752
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1434964148858859215}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4693a40c573f5a046bdaf2b70f61ae79, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  radius: -2.5
-  camWidth: 0
-  camHeight: 0
---- !u!114 &6283113762561682583
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1434964148858859215}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7285daf798163c140b65e8a9eb23454e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 10
-  fireRate: 0.3
-  health: 10
-  score: 100
 --- !u!114 &8475083319580043724
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -279,6 +246,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   radius: -2.5
+  keepOnScreen: 0
+  isOnScreen: 1
   camWidth: 0
   camHeight: 0
 --- !u!114 &1229825400579709871
